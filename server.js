@@ -26,7 +26,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://ericcwong-budget-tracker:
 
 // routes
 app.use(require("./routing/api-routing.js"));
-require("./routes/htmlRouting")(app);
+require("./routes/html-routing")(app);
 app.listen(PORT, () => {
   console.log(`App running on http://localhost:${PORT}`);
 });
