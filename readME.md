@@ -1,7 +1,7 @@
 # Budget Tracker
 
-<a href = "https://ericcwong-burger.herokuapp.com/"><img src="readMe/images/herokuLogo.png"><strong>Heroku</strong></a> Deployed application.<br>
-<a href = "https://github.com/Ericcwong/burger"><img src ="readMe/images/githubLogo.png"><strong>GitHub</strong></a> Repository
+<a href = "https://ericcwong-budget-tracker.herokuapp.com/"><img src="readMe/images/herokuLogo.png"><strong>Heroku</strong></a> Deployed application.<br>
+<a href = "https://github.com/Ericcwong/budget-tracker"><img src ="readMe/images/githubLogo.png"><strong>GitHub</strong></a> Repository
 
 # Application display
 <img src = "readMe/images/home.PNG" width= "400px">
