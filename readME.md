@@ -4,8 +4,8 @@
 <a href = "https://github.com/Ericcwong/burger"><img src ="readMe/images/githubLogo.png"><strong>GitHub</strong></a> Repository
 
 # Application display
-<img src = "readMe/images/home.png" width= "400px">
-<img src = "readMe/images/updatedHome.png" width="400px">
+<img src = "readMe/images/home.PNG" width= "400px">
+<img src = "readMe/images/updatedHome.PNG" width="400px">
 
 # Application
 <img src = "readMe/images/budget-tracker.gif">
