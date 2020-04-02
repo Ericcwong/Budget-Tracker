@@ -29,6 +29,6 @@ app.use(require("./routing/api-routing.js"));
 app.get("/", (req, res) =>{
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
   console.log(`App running on http://localhost:${PORT}`);
 });
