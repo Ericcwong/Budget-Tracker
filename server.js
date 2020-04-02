@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-
+const path = require("path");
 const PORT = 3000;
 
 const app = express();
@@ -26,7 +26,9 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://ericcwong-budget-tracker:
 
 // routes
 app.use(require("./routing/api-routing.js"));
-app.use(require("./routing/html-routing.js"));
+app.get("/", (req, res) =>{
+  res.sendFile(path.join(__dirname, "./public/index.html"));
+});
 app.listen(PORT, () => {
   console.log(`App running on http://localhost:${PORT}`);
 });
